@@ -40,6 +40,8 @@
 		AA13A5831AE66B05006B8EC8 /* AttributeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA13A5881AE66B05006B8EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA13A5891AE66B06006B8EC8 /* AttributeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeTests.m; sourceTree = "<group>"; };
+		AAA4A7271AE7767800D8880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Base; path = Base.lproj/DetailViewController.h; sourceTree = "<group>"; };
+		AAA4A7291AE7767800D8880F /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,9 @@
 		AA13A56C1AE66B05006B8EC8 /* Attribute */ = {
 			isa = PBXGroup;
 			children = (
-				AA13A5711AE66B05006B8EC8 /* AppDelegate.h */,
-				AA13A5721AE66B05006B8EC8 /* AppDelegate.m */,
 				AA13A5741AE66B05006B8EC8 /* ViewController.h */,
+				AAA4A7261AE7767800D8880F /* DetailViewController.h */,
+				AAA4A7281AE7767800D8880F /* DetailViewController.m */,
 				AA13A5751AE66B05006B8EC8 /* ViewController.m */,
 				AA13A5771AE66B05006B8EC8 /* Main.storyboard */,
 				AA13A57A1AE66B05006B8EC8 /* Images.xcassets */,
@@ -96,6 +98,8 @@
 		AA13A56D1AE66B05006B8EC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA13A5711AE66B05006B8EC8 /* AppDelegate.h */,
+				AA13A5721AE66B05006B8EC8 /* AppDelegate.m */,
 				AA13A56E1AE66B05006B8EC8 /* Info.plist */,
 				AA13A56F1AE66B05006B8EC8 /* main.m */,
 			);
@@ -260,6 +264,22 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		AAA4A7261AE7767800D8880F /* DetailViewController.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA4A7271AE7767800D8880F /* Base */,
+			);
+			name = DetailViewController.h;
+			sourceTree = "<group>";
+		};
+		AAA4A7281AE7767800D8880F /* DetailViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA4A7291AE7767800D8880F /* Base */,
+			);
+			name = DetailViewController.m;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -346,6 +366,7 @@
 				INFOPLIST_FILE = Attribute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +377,7 @@
 				INFOPLIST_FILE = Attribute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +434,7 @@
 				AA13A58F1AE66B06006B8EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA13A5901AE66B06006B8EC8 /* Build configuration list for PBXNativeTarget "AttributeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				AA13A5921AE66B06006B8EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
